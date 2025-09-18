@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Temperatura</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/scripts.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="form">
+        <h3>Confira o clima de uma cidade</h3>
+        <div class="form-input-container">
+          <input
+            type="text"
+            placeholder="digite o nome da cidade"
+            id="city-input"
+          />
+          <button id="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </button>
+        </div>
+      </div>
+      <div id="weather-data"></div>
+      <h2>
+        <i class= "fa-solid fa-location-dot"></i>
+        <span id="city">maceió</span>
+        
+        <img src="" alt="Bandeira do país" id="country"/>
+        <p id="Temperature"><span>38</span>&deg;C</p>
+        <div id="description-container">
+            <p id="description">Nublado</p>
+            
+            <div id="details-container"></div>
+            <p id="umidity"></p>
+            <i class="fa-solid fa-droplet"></i>
+            <span>48%</span>
+            <p id="wind"></p>
+            <i class="fa-solid fa-wind"></i>
+            <span>2km/h</span>
+        </div>
+    </h2>    
+    </div>
+  </body>
+</html>
